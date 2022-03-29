@@ -1,0 +1,36 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg {
+    background: url('PSX_20200514_183618.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text {
+    font-size: 50px;
+    color: red;
+    text-align: center;
+    margin-top: 25%;
+}
